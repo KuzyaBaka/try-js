@@ -1,0 +1,65 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #000;
+}
+
+/* Тут будет слайдер */
+
+.slider {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-screen {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #000;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+}
+
+.div-login {
+  border: 1px solid #000;
+  width: 500px;
+  height: 400px;
+  background-color: antiquewhite;
+  position: fixed;
+  top: 200px;
+  left: calc(50% - 250px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.noneClass {
+  display: none;
+}
+
+.closeButton{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
